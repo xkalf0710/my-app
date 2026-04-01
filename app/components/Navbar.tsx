@@ -11,7 +11,7 @@ export const Navbar = () => {
           TAAMI EDU
         </h1>
         <ul className="hidden md:flex  gap-8 text-slate-600 font-medium">
-          <Link href="/">
+          <Link href="/home">
           <li className="text-emerald-500 flex items-center gap-1">Нүүр</li></Link>
           <Link href='/courses'>
             <li className="flex items-center gap-1">Програмчлал</li>
