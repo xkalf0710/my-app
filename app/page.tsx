@@ -1,13 +1,16 @@
-import Image from "next/image";
+import { CategorySection } from "./components/categories";
+import FeatureCards from "./components/FeatureCards";
+import Hero from "./components/Hero";
+import { Navbar } from "./components/Navbar";
+
 
 export default function Home() {
   return (
-   <>
-   
-    <h1 className="text-3xl font-bold">
-       Hello world!
-    </h1>
-  
-   </>
+   <main className="min-h-screen bg-white">
+      <Navbar />
+      <Hero />
+      <CategorySection />
+      <FeatureCards />
+   </main>
   );
 }
