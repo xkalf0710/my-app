@@ -80,7 +80,7 @@ const Footer = () => {
       {/* Зохиогчийн эрх */}
       <div className="max-w-7xl mx-auto pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4">
         <p className="text-xs">
-          Copyright © 2026 <span className="text-emerald-500 font-bold text-sm ml-1">Upstudy</span>. All Rights Reserved.
+          Copyright © 2026 <span className="text-emerald-500 font-bold text-sm ml-1">Taami Edu</span>. All Rights Reserved.
         </p>
         <div className="flex gap-8 text-xs">
           <Link href="#" className="hover:text-emerald-500 transition-colors">Terms of Service</Link>
